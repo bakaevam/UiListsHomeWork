@@ -1,3 +1,6 @@
 package com.homework.uilistshomework
 
-sealed class Item
+class Item(type: Int, text: String) {
+    var first: Int = type
+    var second: String = text
+}
