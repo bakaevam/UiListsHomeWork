@@ -32,8 +32,6 @@ class Item_1 : ViewModel() {
             list.addAll(liveData!!.value as MutableList)
             list.removeAt(position)
             liveData!!.value = list
-
-            Log.v("DELETE ITEM", list[position])
         }
     }
 }
